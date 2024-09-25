@@ -16,10 +16,10 @@ streams bootpd data
 
 When configuring you may get an error such as:
 
-``New configuration written to /etc/bootpd.plist
-Load failed: 5: Input/output error
-Try running `launchctl bootstrap` as root for richer errors.
-bootpd service started successfully.``
+``New configuration written to /etc/bootpd.plist``
+``Load failed: 5: Input/output error``
+``Try running `launchctl bootstrap` as root for richer errors.``
+``bootpd service started successfully.``
 
 If you run the application again, you will find that despite the error bootpd is running with the new configuration. It will be fixed in a future commit.
 
