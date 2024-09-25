@@ -1,4 +1,4 @@
-# bit-dhcp-server
+# bit-dhcp-utility
 lightweight dhcp tool utilizing macOS bootpd
 
 There is no real manual for this tool as of yet, it is distributed merely as an experiment.
