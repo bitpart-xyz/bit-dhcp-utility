@@ -10,3 +10,6 @@ this is tested with macOS 14
 # useful related macOS commands
 sudo log stream --process bootpd --info --debug
 gathers bootpd data 
+
+# support
+we currently are unable to support configurations of this tool, it is to be used purely at your own risk. we will, however, be happy to take suggestions for improvements. 
