@@ -34,3 +34,6 @@ If you run the application again, you will find that despite the error bootpd is
 
 # support
 This product is offered without support. We will be able to take suggestions via Discord or Git Hub.
+
+# license
+This software is released using the GNU General Public License 3.0. 
