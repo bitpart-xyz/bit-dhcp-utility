@@ -1,2 +1,0 @@
-sudo log stream --process bootpd --info --debug
-gathers bootpd data 
