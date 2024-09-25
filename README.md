@@ -11,7 +11,7 @@ This is only compatible with macOS 14 and up. There are some differences in boot
 sudo log stream --process bootpd --info --debug
 streams bootpd data 
 
-#known issues
+# known issues
 **Must be run as superuser**
 
 When configuring you may get an error such as:
