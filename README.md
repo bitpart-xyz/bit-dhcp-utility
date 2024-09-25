@@ -1,15 +1,15 @@
 # bit-dhcp-utility
-lightweight dhcp tool utilizing macOS bootpd
+A simple and lightweight dhcp tool utilizing macOS bootpd as the backend.
 
 There is no real manual for this tool as of yet, it is distributed merely as an experiment.
 
 It is designed for use with the Bit Part bitbox, and will recognize a bitbox device when connected to a Mac, though you can use any network device on your system.
 
-this is tested with macOS 14
+This is only compatible with macOS 14 and up. There are some differences in bootpd implementation in earlier versions of macOS. If this is something that you require, please fork the project and create your own version.
 
 # useful related macOS commands
 sudo log stream --process bootpd --info --debug
-gathers bootpd data 
+streams bootpd data 
 
 # support
-we currently are unable to support configurations of this tool, it is to be used purely at your own risk. we will, however, be happy to take suggestions for improvements. 
+This product is offered without support. We will be able to take suggestions via Discord or Git Hub.
