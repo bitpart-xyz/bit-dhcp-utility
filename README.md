@@ -7,6 +7,13 @@ It is designed for use with the Bit Part bitbox, and will recognize a bitbox dev
 
 This is only compatible with macOS 14 and up. There are some differences in bootpd implementation in earlier versions of macOS. If this is something that you require, please make any necessary changes and submit a pull request.
 
+# usage
+The first time you run the script, you will be presented with the option to create a new config. The script itself leaves a cookie trail in the /etc/bootpd.plist file to know that it was previously edited using this script. 
+
+The second time you run the script, you will be presented with management options.
+
+**Note: the script will enable bootpd to run on the selected interface at system startup**
+
 # useful related macOS commands
 sudo log stream --process bootpd --info --debug
 streams bootpd data 
