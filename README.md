@@ -11,5 +11,17 @@ This is only compatible with macOS 14 and up. There are some differences in boot
 sudo log stream --process bootpd --info --debug
 streams bootpd data 
 
+#known issues
+**Must be run as superuser**
+
+When configuring you may get an error such as:
+
+New configuration written to /etc/bootpd.plist
+Load failed: 5: Input/output error
+Try running `launchctl bootstrap` as root for richer errors.
+bootpd service started successfully.
+
+If you run the application again, you will find that despite the error bootpd is running with the new configuration. It will be fixed in a future commit.
+
 # support
 This product is offered without support. We will be able to take suggestions via Discord or Git Hub.
