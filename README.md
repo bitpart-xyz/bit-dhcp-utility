@@ -12,7 +12,7 @@ The first time you run the script, you will be presented with the option to crea
 
 The second time you run the script, you will be presented with management options.
 
-**Note: the script will enable bootpd to run on the selected interface at system startup**
+**Note: the script will enable bootpd to run at system startup**
 
 # useful related macOS commands
 sudo log stream --process bootpd --info --debug
