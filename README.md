@@ -1,7 +1,9 @@
 # bit-dhcp-server
 lightweight dhcp tool utilizing macOS bootpd
 
-there is no real manual for this tool as of yet, it is distributed merely as an experiment.
+There is no real manual for this tool as of yet, it is distributed merely as an experiment.
+
+It is designed for use with the Bit Part bitbox, and will recognize a bitbox device when connected to a Mac.
 
 this is tested with macOS 14
 
