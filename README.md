@@ -15,7 +15,7 @@ The second time you run the script, you will be presented with management option
 **Note: the script will enable bootpd to run at system startup**
 
 # useful related macOS commands
-sudo log stream --process bootpd --info --debug
+```sudo log stream --process bootpd --info --debug```
 streams bootpd data 
 
 # known issues
